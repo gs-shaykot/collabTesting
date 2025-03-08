@@ -10,7 +10,7 @@ const HomeLayout = () => {
                 Dummy Product section
             </div>
             <div className='container mx-auto h-96 bg-blue-500 text-white font-bold flex justify-center items-center'>
-                Dummy Blogs section
+                Dummy Blogs section 
             </div>
         </div>
     );
