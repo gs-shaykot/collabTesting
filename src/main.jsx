@@ -8,6 +8,7 @@ import './index.css'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
 import Sumona from './Pages/Sumona.jsx';
+import Masud from './Pages/masud.jsx';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: '/sumona',
         element: <Sumona></Sumona>
+      },
+      {
+        path: '/masud',
+        element: <Masud />
       }
     ]
   },
