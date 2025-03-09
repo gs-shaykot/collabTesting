@@ -5,9 +5,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import App from './App.jsx'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
+import Sumona from './Pages/Sumona.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomeLayout></HomeLayout>
+      },
+      {
+        path: '/sumona',
+        element: <Sumona></Sumona>
       }
     ]
   },
