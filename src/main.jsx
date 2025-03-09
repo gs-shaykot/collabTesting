@@ -8,6 +8,7 @@ import './index.css'
 import App from './App.jsx'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
+import NewSakib from './Pages/NewSakib.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomeLayout></HomeLayout>
+      },
+      {
+        path:'/newsakib',
+        element:<NewSakib/>
+
       }
     ]
   },
