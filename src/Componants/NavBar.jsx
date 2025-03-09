@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -42,7 +43,7 @@ const Navbar = () => {
                         <li><a>Masud Rana</a></li>
                         <li><a>Rasel Mia</a></li>
                         <li><a>Abdullah </a></li>
-                        <li><a>Sakib Fakir</a></li>
+                        <Link to={'/sakib'}>Sakib Fakir</Link>
                         <li><a>Sumona Yeasmin</a></li>
                     </ul>
                 </div>
