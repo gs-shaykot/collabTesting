@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <HomeLayout></HomeLayout>
       },
       {
-        path:'/sakib',
+        path:'/sakibfakir',
         element:<Sakib/>
       }
     ]
