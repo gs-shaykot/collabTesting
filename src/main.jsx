@@ -7,6 +7,7 @@ import {
 import './index.css'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
+import NewSakib from './Pages/NewSakib.jsx';
 import Sumona from './Pages/Sumona.jsx';
 import Masud from './Pages/masud.jsx';
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomeLayout></HomeLayout>
+      },
+      {
+        path: '/newsakib',
+        element: <NewSakib />
       },
       {
         path: '/sumona',
