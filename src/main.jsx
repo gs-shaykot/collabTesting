@@ -7,12 +7,10 @@ import {
 import './index.css'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
-<<<<<<< HEAD
 import NewSakib from './Pages/NewSakib.jsx';
-=======
 import Sumona from './Pages/Sumona.jsx';
+import Masud from './Pages/masud.jsx';
 
->>>>>>> e1a1aead8d5048edf6573044fff6379feee46b0c
 
 const router = createBrowserRouter([
   {
@@ -24,14 +22,16 @@ const router = createBrowserRouter([
         element: <HomeLayout></HomeLayout>
       },
       {
-<<<<<<< HEAD
-        path:'/newsakib',
-        element:<NewSakib/>
-
-=======
+        path: '/newsakib',
+        element: <NewSakib />
+      },
+      {
         path: '/sumona',
         element: <Sumona></Sumona>
->>>>>>> e1a1aead8d5048edf6573044fff6379feee46b0c
+      },
+      {
+        path: '/masud',
+        element: <Masud />
       }
     ]
   },
