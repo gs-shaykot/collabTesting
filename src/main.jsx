@@ -7,7 +7,6 @@ import {
 import './index.css'
 import MainLayout from './Layout/MainLayout.jsx';
 import HomeLayout from './Layout/HomeLayout.jsx';
-import Abdullah from './Pages/Abdullah.jsx';
 import Sumona from './Pages/Sumona.jsx';
 
 
@@ -21,13 +20,8 @@ const router = createBrowserRouter([
         element: <HomeLayout></HomeLayout>
       },
       {
-
         path: '/sumona',
         element: <Sumona></Sumona>
-      },
-      {
-        path: 'abdullah',
-        element: <Abdullah></Abdullah>
       }
     ]
   },
