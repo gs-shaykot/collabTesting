@@ -44,6 +44,7 @@ const Navbar = () => {
                         </li>
                         <li><a>Masud Rana</a></li>
                         <li><a>Rasel Mia</a></li>
+                        <li><Link to= {'/abdullah'}>Abdullah</Link></li>
                         <li><a>Abdullah </a></li>
                         <Link to={'/newsakib'}>Sakib Fakir</Link>
                         <li><a>Sumona Yeasmin</a></li>
