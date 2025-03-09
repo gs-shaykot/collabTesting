@@ -43,7 +43,7 @@ const Navbar = () => {
                             <Link to='/'>Home-(Shaykot)</Link>
                         </li>
                         <li><a>Masud Rana</a></li>
-                        <li><a>Rasel Mia</a></li>
+                        <li><Link to={'/rasel'}>Rasel Mia</Link></li>
                         <li><Link to= {'/abdullah'}>Abdullah</Link></li>
                         <li><a>Abdullah </a></li>
                         <Link to={'/newsakib'}>Sakib Fakir</Link>
