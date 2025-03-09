@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -40,7 +41,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li><a>Home(Shaykot)</a></li> 
                         <li><a>Masud Rana</a></li>
-                        <li><a>Rasel Mia</a></li>
+                        <li><Link to={'/rasel'}>Rasel Mia</Link></li>
                         <li><a>Abdullah </a></li>
                         <li><a>Sakib Fakir</a></li>
                         <li><a>Sumona Yeasmin</a></li>
