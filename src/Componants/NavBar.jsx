@@ -39,12 +39,17 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Home(Shaykot)</a></li> 
+                        <li>
+                            <Link to='/'>Home-(Shaykot)</Link>
+                        </li>
                         <li><a>Masud Rana</a></li>
                         <li><a>Rasel Mia</a></li>
                         <li><a>Abdullah </a></li>
                         <Link to={'/newsakib'}>Sakib Fakir</Link>
                         <li><a>Sumona Yeasmin</a></li>
+                        <li><a>Sakib Fakir</a></li>
+                        {/* <li><a>Sumona Yeasmin</a></li> */}
+                        <li><Link to="/sumona">Sumona Yeasmin</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
